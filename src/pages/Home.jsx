@@ -1,12 +1,16 @@
 import Announcement from "../components/Announcement";
 import React from "react";
 import Navbar from "../components/Navbar";
+import Slider from "../components/Slider";
 
 const Home = () => {
-  return <div>
-    <Announcement />
+  return (
+    <div>
+      <Announcement />
       <Navbar />
-      </div>;
+      <Slider />
+    </div>
+  );
 };
 
 export default Home;
