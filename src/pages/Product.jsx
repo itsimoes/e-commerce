@@ -124,7 +124,7 @@ const Product = () => {
             Item description with more detailed information about this
             product.
           </Description>
-          <Price>$ 100</Price>
+          <Price>$ 500</Price>
           <FilterContainer>
             <Filter>
               <FilterTitle>Color</FilterTitle>
